@@ -1,0 +1,214 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+header
+{
+    color: #75C6A5;
+}
+
+.clear
+{
+    clear: right;
+}
+
+nav
+{
+    position: fixed;
+    background-color: #242430;
+    top: 0;
+    width: 100%;
+}
+
+nav ul li
+{
+    display: inline;
+    list-style-type: none;
+}
+
+nav ul li a
+{
+    padding: 16px;
+    color: #75C6A5;
+    text-decoration: none;
+}
+
+nav ul li a:hover
+{
+    background-color: #75C6A5;
+    color: #242430;
+}
+
+.jumbotron
+{
+    text-align: center;
+    padding: 150px 50px 150px;
+    background-color: #242430;
+    color: #75C6A5;
+}
+
+.icon
+{
+    margin-top: 10px;
+    width: 64px;
+}
+
+.card
+{
+    padding: 50px 20px 50px;
+}
+
+.jumbotron-nav
+{
+    background-color: #75C6A5;
+    padding: 21px;
+    text-decoration: none;
+    color: #242430;
+    border: 0;
+    font-size: medium;
+}
+
+.left-serv
+{
+    text-align: left;
+}
+
+.right-serv
+{
+    text-align: right;
+}
+
+.order-button
+{
+    text-decoration: none;
+    background-color: #242430;
+    color: #75C6A5;
+    padding: 10px 20px 10px;
+    float: right;
+    border: none;
+    font-family: 'Montserrat';
+}
+
+.container
+{
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.content
+{
+    float: left;
+    width: 33%;
+    overflow: auto;
+}
+
+.logo
+{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: auto;
+}
+
+#portfolio, #service, #about, #order
+{
+    text-align: center;
+}
+
+main
+{
+    float: left;
+    width: 70%;
+    padding: 10px;
+    color: #242430;
+}
+
+aside 
+{
+    float: left;
+    width: 30%;
+    padding: 10px 20px 0;
+    text-align: center;
+    color: #242430;
+}
+
+.profile-img
+{
+    margin: 0 auto;
+    object-position: center;
+}
+
+.profile-img img
+{
+    width: 70%;
+}
+
+table
+{
+    width: 100%;
+}
+
+td
+{
+    text-align: left;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+footer
+{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 10px;
+    background-color: #75C6A5;
+    color: #242430;
+    margin-top: 20px;
+}
+
+.container form table tr td {
+    padding: 10px;
+}
+
+.container form table tr td input,.container form table tr td select {
+    width: 100%;
+}
+
+@media screen and (max-width:800px) {
+    main, aside {
+      width:100%;
+    }
+
+    .logo
+    {
+        width: 70%;
+    }
+
+    .profile-img img
+    {
+        width: 50%;
+    }
+
+    .order-button
+    {
+        float: none;
+    }
+}
+
+@media screen and ( max-width:1159px ){
+    .content {
+        width: 100%;
+    }
+
+    .logo
+    {
+        width: 50%;
+    }
+}
